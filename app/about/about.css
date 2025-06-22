@@ -1,0 +1,91 @@
+.about-modern {
+  background: linear-gradient(135deg, #f7faf9, #e9f5f1);
+  padding: 2rem;
+  font-family: 'system-ui', sans-serif;
+  color: #1d3535;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  color: #57a889;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  color: #100700;
+  margin-bottom: 1rem;
+}
+
+.card.accent {
+  background-color: #57a889;
+  color: white;
+}
+
+.card.accent h2,
+.card.accent li {
+  color: white;
+}
+
+.card ul {
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.card li {
+  margin-bottom: 0.5rem;
+}
+
+.card.wide {
+  grid-column: span 2;
+  background: #f1fbf8;
+}
+
+.card.wide .cta {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card.wide .cta a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #57a889;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.card.wide .cta a:hover {
+  background: #3e7c6c;
+}

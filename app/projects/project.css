@@ -1,0 +1,48 @@
+.projects-main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #f7faf9;
+  color: #1d3535;
+  font-family: system-ui, sans-serif;
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #57a889;
+}
+
+.joke-section {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.joke-section h2 {
+  color: #57a889;
+  margin-bottom: 1rem;
+}
+
+.joke {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #57a889;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #3e7c6c;
+}

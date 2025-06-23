@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="navbar-logo">Next.Js test</div>
       <ul className="navbar-links">
         <li><Link href="/">Accueil</Link></li>
-        <li><Link href="/projects">Projets</Link></li>
+        <li><Link href="/projects">Test API</Link></li>
         <li><Link href="/about">À propos</Link></li>
       </ul>
     </nav>
